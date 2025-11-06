@@ -2,9 +2,9 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    int n = Integer.parseInt(args[0]);
-		double sum=1;
-		int sign=-1;
-		int denominator=3;
+		double sum=0;
+		int sign=1;
+		int denominator=1;
 		int i;
 		for(i=0;i<n;i++)
 		{
