@@ -4,13 +4,13 @@ public class CalcPi {
 	    int n = Integer.parseInt(args[0]);
 		double sum=1;
 		int sign=-1;
-		int denominator=1;
+		int denominator=3;
 		int i;
 		for(i=0;i<n;i++)
 		{
-			denominator=denominator+2;
 			sum=sum+((double)sign/denominator);
 			sign=-1*sign;
+			denominator=denominator+2;
 		}
 		double piApprox=sum*4;
 		System.out.println("pi according to Java: "+Math.PI);
